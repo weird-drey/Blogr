@@ -1,0 +1,676 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: "Overpass", sans-serif;
+}
+
+header {
+  max-width: 100%;
+  height: auto;
+  background-image: url(./bg-pattern-intro-desktop.svg),
+    linear-gradient(to right, #ff876f, #ff5c61);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 400px cover;
+  padding: 60px 200px;
+  border-bottom-left-radius: 120px;
+}
+
+.mobile-header,
+.menu-dropdown {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+#navbar1 {
+  display: flex;
+  padding-left: 60px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.nav-bar {
+  width: auto;
+  padding-left: 30px;
+}
+
+.dropdown-content {
+  width: 200px;
+  height: auto;
+  padding: 30px 20px;
+  background-color: #ffffff;
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #ff5c61;
+}
+
+.drop-link {
+  color: black;
+  display: block;
+  font-weight: normal;
+  text-align: left;
+  text-decoration: none;
+}
+
+.link {
+  padding-bottom: 20px;
+}
+
+.news {
+  padding-bottom: 30px;
+}
+
+.show {
+  display: block;
+}
+
+.news:hover {
+  font-weight: bold;
+}
+
+.logo1 {
+  width: 130px;
+  height: auto;
+  padding-top: 5px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+header div nav div img {
+  width: auto;
+  height: auto;
+  padding-left: 10px;
+}
+
+#navbar2 {
+  margin-left: auto;
+}
+
+header div nav button {
+  width: 150px;
+  background-color: white;
+  color: #ff5c61;
+  padding: 15px 20px;
+  border: 1px solid white;
+  border-radius: 30px;
+  font-size: 18px;
+  font-family: "Overpass", sans-serif;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+header div nav button:hover {
+  background-color: #fe7c86;
+  color: white;
+  border: 1px solid #fe7c86;
+}
+
+.header-cnt {
+  width: 100%;
+  padding-top: 150px;
+}
+
+.headline {
+  text-align: center;
+  font-size: 85px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.grow {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding-bottom: 60px;
+}
+
+.btn {
+  text-align: center;
+}
+
+.start-btn {
+  width: 150px;
+  background-color: white;
+  color: #ff5c61;
+  padding: 15px 20px;
+  margin-bottom: 80px;
+  border: 1px solid white;
+  border-radius: 30px;
+  font-size: 17px;
+  font-family: "Overpass", sans-serif;
+  font-weight: bold;
+}
+.learn-btn {
+  width: 150px;
+  background-color: inherit;
+  color: white;
+  padding: 15px 20px;
+  margin-bottom: 80px;
+  border: 1px solid white;
+  border-radius: 30px;
+  font-size: 17px;
+  font-family: "Overpass", sans-serif;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.start-btn:hover {
+  background-color: #fe7c86;
+  color: white;
+  border: 1px solid #fe7c86;
+}
+
+.learn-btn:hover {
+  background-color: white;
+  color: #ff5c61;
+  border: 1px solid #ff5c61;
+}
+
+.mobile-section1 {
+  display: none;
+}
+
+main {
+  width: 100%;
+  padding: 200px 0;
+}
+
+.design {
+  text-align: center;
+  font-size: 45px;
+  padding-bottom: 120px;
+}
+
+#section1 {
+  width: 100%;
+  padding-left: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features {
+  width: 45%;
+}
+
+.image {
+  width: 45%;
+  height: auto;
+  transform: scale(1.3);
+}
+
+#section1 div img {
+  transform: translateY(-15%);
+}
+
+main section div div h2 {
+  font-size: 35px;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+main section div div p {
+  width: 82%;
+  font-size: 20px;
+  color: grey;
+  text-align: left;
+  line-height: 2;
+}
+
+.robust {
+  padding-top: 100px;
+}
+
+.mobile-section2 {
+  display: none;
+}
+
+#section2 {
+  width: 100%;
+  height: auto;
+  padding: 0 200px;
+  background-color: rgba(48, 50, 77, 0.932);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-left-radius: 120px;
+  border-top-right-radius: 120px;
+  background-image: url(./bg-pattern-circles.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 100px contain;
+}
+
+#section2 div h1 {
+  color: white;
+  font-size: 45px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+#section2 div p {
+  width: 95%;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  line-height: 2;
+}
+
+.image1 {
+  width: 45%;
+  height: auto;
+  transform: scale(1.5);
+}
+
+#section2 div img {
+  transform: translate(12%, 5%);
+}
+
+#section3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+  margin-top: 400px;
+}
+
+#section3 div img {
+  transform: translate(-18%, -10%);
+}
+
+#section3 div h2 {
+  font-size: 35px;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+#section3 div p {
+  width: 72%;
+  font-size: 20px;
+  color: grey;
+  text-align: left;
+  line-height: 2;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 60px 300px 60px 200px;
+  background-color: #24242c;
+  display: flex;
+  justify-content: space-between;
+  border-top-right-radius: 120px;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 18px;
+  color: grey;
+}
+
+.info {
+  padding-bottom: 40px;
+  font-weight: bold;
+}
+
+.info-color {
+  color: white;
+}
+
+.footer-link {
+  padding-bottom: 20px;
+}
+
+.connect:hover {
+  text-decoration: underline;
+}
+
+.pricing:hover {
+  text-decoration: underline;
+}
+
+.open {
+  transform: rotate(180deg);
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+@media (max-width: 1000px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: "Overpass", sans-serif;
+  }
+
+  header {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 30px 15px;
+    background-image: url(./bg-pattern-intro-mobile.svg),
+      linear-gradient(to right, #ff876f, #ff5c61);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px cover;
+    border-bottom-left-radius: 120px;
+  }
+
+  .desktop-header {
+    display: none;
+  }
+
+  .mobile-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .close-btn {
+    width: auto;
+    position: absolute;
+    top: 35px;
+    left: 350px;
+    display: none;
+  }
+
+  .navlink1 {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .menu-drop {
+    display: block;
+  }
+
+  .menu-div {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 30px 0;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 5px;
+  }
+
+  .menu-link {
+    padding-bottom: 30px;
+  }
+
+  .contact {
+    width: 80%;
+    padding: 30px;
+    margin: 20px auto;
+    background-color: grey;
+    border-radius: 5px;
+    opacity: 0.3;
+  }
+
+  hr {
+    width: 80%;
+    background-color: grey;
+    opacity: 0.3;
+    margin: 30px auto 0;
+  }
+
+  .signin {
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 30px 0 0;
+  }
+
+  .signup {
+    width: 150px;
+    background: linear-gradient(to right, #ff876f, #ff5c61);
+    color: white;
+    padding: 15px 20px;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family: "Overpass", sans-serif;
+    font-weight: bold;
+  }
+
+  .block .open {
+    display: block;
+  }
+
+  .burger {
+    width: auto;
+    padding-top: 10px;
+  }
+
+  .header-cnt {
+    width: 100%;
+    padding-top: 150px;
+  }
+
+  .headline {
+    width: 100%;
+    color: white;
+    font-size: 39px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .grow {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding-bottom: 60px;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .start-btn {
+    width: 150px;
+    background-color: white;
+    color: #ff5c61;
+    padding: 15px 20px;
+    margin-bottom: 80px;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family: "Overpass", sans-serif;
+    font-weight: bold;
+  }
+
+  .learn-btn {
+    width: 150px;
+    background-color: inherit;
+    color: white;
+    padding: 15px 20px;
+    margin-bottom: 80px;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family: "Overpass", sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  main {
+    width: 100%;
+    margin-top: 120px;
+    display: block;
+    padding: 0 0;
+  }
+
+  .design {
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 50px;
+  }
+
+  #section1 {
+    display: none;
+  }
+
+  .mobile-section1 {
+    width: 100%;
+    display: block;
+  }
+
+  .editor {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sec-div1 {
+    width: 100%;
+    text-align: center;
+    padding: 30px 20px;
+    color: white;
+  }
+
+  .intro {
+    font-size: 35px;
+    padding-bottom: 30px;
+    color: black;
+  }
+
+  .blogr {
+    font-size: 18px;
+    color: grey;
+    line-height: 2;
+  }
+
+  #section2 {
+    display: none;
+  }
+
+  .mobile-section2 {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 150px 0 80px;
+    padding: 0 0;
+    background-color: rgba(48, 50, 77, 0.932);
+    border-bottom-left-radius: 120px;
+    border-top-right-radius: 120px;
+    background-image: url(./bg-pattern-circles.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100px contain;
+  }
+
+  .phones {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.7);
+  }
+
+  .phones1 {
+    transform: translateY(-60%);
+  }
+
+  .sec-div2 {
+    width: 100%;
+    text-align: center;
+    padding: 20px 20px;
+    color: white;
+    position: relative;
+    bottom: 250px;
+  }
+
+  .intro1 {
+    font-size: 35px;
+    padding-bottom: 30px;
+    color: white;
+  }
+
+  .blogr1 {
+    font-size: 18px;
+    color: white;
+    line-height: 2;
+  }
+
+  #section3 {
+    display: none;
+  }
+
+  footer {
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+    margin-top: 50px;
+    background-color: #24242c;
+    display: block;
+    border-top-right-radius: 120px;
+  }
+
+  footer div {
+    text-align: center;
+  }
+
+  footer a {
+    text-decoration: none;
+    font-size: 18px;
+    color: grey;
+  }
+
+  .logo {
+    margin: 50px 0;
+  }
+
+  .info {
+    padding: 40px 0;
+    font-weight: bold;
+  }
+
+  .info-color {
+    color: white;
+  }
+
+  .footer-link {
+    padding-bottom: 20px;
+  }
+
+  .connect:hover {
+    text-decoration: underline;
+  }
+
+  .space {
+    padding-bottom: 50px;
+  }
+}
